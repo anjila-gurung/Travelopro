@@ -721,6 +721,17 @@ input:focus{
       padding-left: 250px;
       padding-top: 30px;
   }
+  .breadcrum{
+      display: flex;
+  }
+
+  .breadcrum-create-package a{
+    padding-left: 25px;
+    text-decoration: none ;
+    color: #000;
+
+  }
+
   .breadcrum-home a {
     color: #000;
     text-decoration: underline;
@@ -762,3 +773,29 @@ input:focus{
     transform: translate(-50% , -50%);
     color: #000;
   }
+
+  .create-package{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .create-package-form{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+.create-package-button-group{
+    display: flex;
+
+
+}
+
+.create-package-button-group button{
+margin: 0 !important;
+margin-right: 40px !important;
+    
+
+}
+.create-package-form label{
+    text-align: left;
+}
