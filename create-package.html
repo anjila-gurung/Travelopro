@@ -23,14 +23,14 @@
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-container">
-                  <a href="#create">Create</a>
-                  <a href="#modify">Modify</a>
+                  <a href="create-package.html">Create</a>
+                  <a href="modify-package.html">Modify</a>
                   
                 </div>
-                <a href="#contact">Manage User</a>
-                <a href="#services">Manage Bookings</a>
-                <a href="#clients">Manage Enquiry</a>
-                <a href="#contact">Manage Issues</a>
+                <a href="manage-user.html">Manage User</a>
+                <a href="manage-booking.html">Manage Bookings</a>
+                <a href="manage-enquiry.html">Manage Enquiry</a>
+                <a href="manage-issue.html">Manage Issues</a>
               </div>
             </div>
             <div class="dashboard-nav">
@@ -61,39 +61,14 @@
         <div class="container">
             <div class="breadcrum">
                 <div class="breadcrum-home">
-                   <a href="#">Home</a>
+                   <a href="dashboard.html">Home</a>
                 </div>
                 <div class="breadcrum-create-package">
                     <a href="#">Create Package</a>
                  </div>
             </div>
             <div class="content-grid mt-30 create-package">
-                <!-- <a href="#">
-                    <div class="content-gird-item">
-                        <h4>User</h4>
-                    </div>
-                </a>
-                <a href="#">
-                <div class="content-gird-item">
-                    <h4>Bookings</h4>
-                </div>
-                </a>
-                <a href="#">
-                <div class="content-gird-item">
-                    <h4>Tour Packages</h4>
-                </div>
-                </a>
-                <a href="#">
-                <div class="content-gird-item">
-                    <h4>Enquiry</h4>
-                </div>
-                </a>
-                <a href="#">
-                <div class="content-gird-item">
-                    <h4>Issues Raised</h4>
-                </div>
-                </a> -->
-
+               
                 <h3>Create Package</h3>
                 <form class="create-package-form">
                     <div class="mb-3 row">
@@ -133,12 +108,16 @@
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="inputPackageImage" class="col-sm-3 col-form-label">Package Image</label>
-                        <div class="col-sm-7">
+                        <label  class="col-sm-3 col-form-label">Package Image</label>
+                        <div class="col-sm-7 upload-flex">
+                            <label for="inputPackageImage" class="custom-file-upload">
+                                Upload
+                            </label>
+                            <p>Upload an image for package.</p>
                           <input type="file" class="form-control" id="inputPackageImage">
                         </div>
                     </div>
-                    <div class="mb-3 row">
+                    <div class="mt-30 row ">
                         <label for="inputPackageDetails" class="col-sm-3 col-form-label"></label>
                         <div class="col-sm-7 create-package-button-group">
                             <button class="btn enquiry-btn">Create</button>
@@ -146,6 +125,9 @@
                         </div>
                     </div>
                 </form>
+            </div>
+            <div class="dashboard-footer">
+                <p>©️Travelopro 2022 | All Rights Reserved</p>
             </div>
         </div>
     </section>
