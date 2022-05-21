@@ -717,3 +717,48 @@ input:focus{
       font-weight: 400;
       text-decoration: none;
   }
+  .main-content{
+      padding-left: 250px;
+      padding-top: 30px;
+  }
+  .breadcrum-home a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color:#000;
+    position: relative;
+
+  }
+  .breadcrum-home a::before{
+      content: '';
+        position: absolute;
+        background-image: url(../images/chevron-right.svg);
+        width: 10px;
+        height: 15px;
+        right: -20px;
+        top: 4px;
+
+  }
+  
+  
+  .content-grid{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .content-grid a{
+    background-color: #fff;
+    box-shadow: 0 0 4px #ddd;
+    border: 1px solid #ddd;
+    border: 4px;
+    position: relative;
+    width: 100%;
+    height: 130px;
+    margin: 10px;
+    flex-basis: 30%;
+  }
+  .content-grid h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #000;
+  }
